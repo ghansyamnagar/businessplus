@@ -124,7 +124,11 @@
     "@tiptap/core": "^2.0.0"
   },
   "overrides": {
-    "rimraf": "^5.0.7"
+    "rimraf": "^5.0.7",
+    "entities": "4.5.0",
+    "parse5": {
+      "entities": "4.5.0"
+    }
   },
   "prisma": {
     "schema": "./src/prisma/schema.prisma"
